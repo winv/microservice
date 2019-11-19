@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "permission-common", "permission-common", "{60D8CCB6-3A0F-41C9-81DA-69CEFB3551A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Common", "Permission.Common\Permission.Common.csproj", "{4CCFE232-301B-4E82-B828-A3F0C2A8C12F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "permission-api", "permission-api", "{D105BDF5-1FE3-46BC-8055-D971E93AE21A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "permission-rest", "permission-rest", "{01317991-A1FD-475B-A15E-D0ECC355AE97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "permission-dao", "permission-dao", "{6A2DBAD6-397A-4F3E-9344-74BC13F03E7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "permission-entity", "permission-entity", "{B40F390B-5198-40CB-81B2-888045265131}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "permission-generator", "permission-generator", "{638807B3-1700-4440-9820-3FD840F32B1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "permission-service", "permission-service", "{97F2757D-10A1-4A7C-A139-B0DA49B658BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Rest", "Permission.Rest\Permission.Rest.csproj", "{A4F65AE3-0DA6-4058-87B7-07A092230F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.rpc.api", "Permission.Api\Permission.rpc.api.csproj", "{DFF9A31C-D5FA-475D-8EA3-D9527684DE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gprcClient", "gprcClient\gprcClient.csproj", "{34420EF0-4532-4EF9-958A-24B6ADF1239D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpcServer", "grpcServer\grpcServer.csproj", "{533715F1-0E1E-4F2C-9922-E212AE6B4F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.GrpcService.Hosting", "Permission.GrpcService.Hosting\Permission.GrpcService.Hosting.csproj", "{0A81DD0C-E6F6-4B00-A87E-D1EF02252BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permission.Service", "Permission.Service\Permission.Service.csproj", "{6AF8FC99-3E76-4D91-A654-CC60EA243384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCFE232-301B-4E82-B828-A3F0C2A8C12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCFE232-301B-4E82-B828-A3F0C2A8C12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCFE232-301B-4E82-B828-A3F0C2A8C12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCFE232-301B-4E82-B828-A3F0C2A8C12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F65AE3-0DA6-4058-87B7-07A092230F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F65AE3-0DA6-4058-87B7-07A092230F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F65AE3-0DA6-4058-87B7-07A092230F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F65AE3-0DA6-4058-87B7-07A092230F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF9A31C-D5FA-475D-8EA3-D9527684DE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF9A31C-D5FA-475D-8EA3-D9527684DE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF9A31C-D5FA-475D-8EA3-D9527684DE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF9A31C-D5FA-475D-8EA3-D9527684DE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34420EF0-4532-4EF9-958A-24B6ADF1239D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34420EF0-4532-4EF9-958A-24B6ADF1239D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34420EF0-4532-4EF9-958A-24B6ADF1239D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34420EF0-4532-4EF9-958A-24B6ADF1239D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533715F1-0E1E-4F2C-9922-E212AE6B4F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533715F1-0E1E-4F2C-9922-E212AE6B4F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533715F1-0E1E-4F2C-9922-E212AE6B4F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533715F1-0E1E-4F2C-9922-E212AE6B4F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A81DD0C-E6F6-4B00-A87E-D1EF02252BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A81DD0C-E6F6-4B00-A87E-D1EF02252BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A81DD0C-E6F6-4B00-A87E-D1EF02252BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A81DD0C-E6F6-4B00-A87E-D1EF02252BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF8FC99-3E76-4D91-A654-CC60EA243384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF8FC99-3E76-4D91-A654-CC60EA243384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF8FC99-3E76-4D91-A654-CC60EA243384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF8FC99-3E76-4D91-A654-CC60EA243384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CCFE232-301B-4E82-B828-A3F0C2A8C12F} = {60D8CCB6-3A0F-41C9-81DA-69CEFB3551A6}
+		{A4F65AE3-0DA6-4058-87B7-07A092230F02} = {01317991-A1FD-475B-A15E-D0ECC355AE97}
+		{DFF9A31C-D5FA-475D-8EA3-D9527684DE19} = {D105BDF5-1FE3-46BC-8055-D971E93AE21A}
+		{6AF8FC99-3E76-4D91-A654-CC60EA243384} = {97F2757D-10A1-4A7C-A139-B0DA49B658BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17B50B0C-A083-426E-B4BA-DAC05513DD1C}
+	EndGlobalSection
+EndGlobal

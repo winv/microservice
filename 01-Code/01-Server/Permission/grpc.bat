@@ -1,0 +1,1 @@
+packages\grpc.tools\2.24.0\tools\windows_x86\protoc.exe -I Permission.Api --csharp_out Permission.Api Permission.Api\helloworld.proto --grpc_out Permission.Api --plugin=protoc-gen-grpc=packages\grpc.tools\2.24.0\tools\windows_x64\grpc_csharp_plugin.exe
